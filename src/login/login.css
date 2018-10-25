@@ -1,0 +1,30 @@
+
+.loginFields {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    border: 0;
+    background-color: rgba(250, 249, 252, 0.1);
+    color: white;
+}
+input {
+    margin: 10px;
+    padding: 10px;
+}
+
+.content {
+    align-items: center;
+    display: block;
+}
+
+.btnLogin {
+    background-color: #43B4CD;
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    height: 40px;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+}
