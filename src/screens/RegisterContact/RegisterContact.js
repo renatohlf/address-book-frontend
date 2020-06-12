@@ -8,7 +8,7 @@ import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 
 function RegisterContact() {
-  const { register, handleSubmit, errors } = useForm(); // initialise the hook
+  const { register, handleSubmit } = useForm(); // initialise the hook
   const history = useHistory();
 
   const [loading, setLoading] = useState(false);
