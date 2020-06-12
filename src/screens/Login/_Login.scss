@@ -1,0 +1,28 @@
+
+
+.login__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 30rem;
+}
+
+.login__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login__logo {
+    height: 30vmin;
+}

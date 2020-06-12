@@ -1,0 +1,49 @@
+.contacts__contact-card {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    width: auto;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: white;
+    color: black;
+    max-width: 20rem;
+    
+}
+.contacts__contact-card__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: .75rem;
+}
+
+.contacts__contact-card__subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: .5rem;
+}
+
+.contacts__contact-card__subtitle--sm {
+    font-weight: 400;
+}
+
+.contacts__contacts-list {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+// Temporary
+.nav-bar {
+    display: flex;
+    justify-content: flex-start;
+
+    a {
+        margin: 1rem;
+    }
+}
+
+.contacts__logo {
+    height: 2rem;
+    margin: 1rem;
+    margin-right: auto;
+}

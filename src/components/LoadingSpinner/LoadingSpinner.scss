@@ -1,0 +1,61 @@
+.loading-spinner__overlay {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: #000000d1;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+
+
+    animation: fadeInOpacity 1 200ms ease-in;
+    -webkit-animation: fadeInOpacity 1 200ms ease-in;
+    -moz-animation:    fadeInOpacity 1 200ms ease-in;
+    -o-animation:      fadeInOpacity 1 200ms ease-in;
+
+    z-index: 9999;
+
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.loading-spinner  {
+    align-self: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: #ec5990;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 1rem;
+    transform-origin: bottom;
+    border-radius: 50%;
+    z-index: 9999;
+
+}
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+.bounce-delay-1 {
+    animation-delay: 0.2s;
+}
+.bounce-delay-2 {
+    animation-delay: 0.3s;
+}
+
+@keyframes bounce {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}
