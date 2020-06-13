@@ -40,7 +40,7 @@ function Login() {
               placeholder="Username"
               name="username"
             />
-            {errors.username && "Username is required."}
+            {errors.username && <span>Username is required</span>}
 
             <input
               ref={register({ required: true })}
@@ -49,7 +49,7 @@ function Login() {
               placeholder="Password"
               name="password"
             />
-            {errors.password && "Password is required."}
+            {errors.password && <span>Password is required</span>}
 
             <button className="button-submit" type="submit">
               Login
