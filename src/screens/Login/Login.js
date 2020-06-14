@@ -56,7 +56,7 @@ function Login() {
             </button>
           </form>
         </div>
-        <Link className="link" to="/register-user">
+        <Link className="link" to="/users/new">
           <FiUserPlus size={22} color={"fff"} />
           Sign up
         </Link>

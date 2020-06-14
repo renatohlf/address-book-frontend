@@ -31,7 +31,7 @@ function Contacts() {
       {loading && <LoadingSpinner />}
       <div className="nav-bar">
         <img src={logo} className="contacts__logo" alt="logo" />
-        <Link to="/register-contact">
+        <Link to="/contacts/new">
           <FiUserPlus size={22} color={"fff"} />
         </Link>
 
